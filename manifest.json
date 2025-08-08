@@ -3,12 +3,18 @@
     "name": "Statický D3 Org Chart",
     "company": "Custom Visualization",
     "description": "Organizační graf s D3.js na formát A4",
-    "supportUrl": "https://example.com"
+    "supportUrl": "https://envitrail.com"
   },
   "devMode": true,
-  "components": {
-    "visualization": {
-      "url": "index.js"
+  "components": [
+    {
+      "id": "orgchart",
+      "name": "Org Chart",
+      "description": "Vertikální organizační strom",
+      "resource": {
+        "js": "index.js",
+        "html": "index.html"
+      }
     }
-  }
+  ]
 }
