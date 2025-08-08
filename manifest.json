@@ -1,0 +1,14 @@
+{
+  "dataStudio": {
+    "name": "Statický D3 Org Chart",
+    "company": "Custom Visualization",
+    "description": "Organizační graf s D3.js na formát A4",
+    "supportUrl": "https://example.com"
+  },
+  "devMode": true,
+  "components": {
+    "visualization": {
+      "url": "index.js"
+    }
+  }
+}
